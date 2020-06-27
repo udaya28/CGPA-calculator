@@ -65,7 +65,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 6px 8px;
+  padding: 6px 4px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'Trebuchet MS';
@@ -84,4 +84,13 @@ body {
 .topnav a.active {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+}
+#key {
+  display: flex;
+}
+#key input {
+  width: 50%;
+}
+#key select {
+  width: 40%;
 }
