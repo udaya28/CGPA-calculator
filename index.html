@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- botstrap locally -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /> -->
+
+    <link rel="stylesheet" href="master.css" />
+    <title>SGPA</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topnav">
+        <a class="active" href="#">SGPA</a>
+        <a href="CGPA.html">CGPA</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+      <h1>
+        <span class="badge badge-secondary badge-success">SGPA calculator</span>
+      </h1>
+      <!-- <form action=""> -->
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Subject <span style="float: right;">Credit</span></th>
+            <th colspan="2">Grade</th>
+          </tr>
+        </thead>
+        <tbody id="table">
+          <tr>
+            <td>
+              <input type="text" class="form-control" />
+              <select name="credit" class="form-control select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </td>
+
+            <td>
+              <select name="grade" class="form-control">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="0">RA</option>
+                <option value="0">AB</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="button"
+                class="btn btn-danger btn-sm delete"
+                value="X"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="form-control" />
+              <select name="credit" class="form-control select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </td>
+
+            <td>
+              <select name="grade" class="form-control">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="0">RA</option>
+                <option value="0">AB</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="button"
+                class="btn btn-danger btn-sm delete"
+                value="X"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="form-control" />
+              <select name="credit" class="form-control select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </td>
+
+            <td>
+              <select name="grade" class="form-control">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="0">RA</option>
+                <option value="0">AB</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="button"
+                class="btn btn-danger btn-sm delete"
+                value="X"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="text" class="form-control" />
+              <select name="credit" class="form-control select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </td>
+
+            <td>
+              <select name="grade" class="form-control">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="0">RA</option>
+                <option value="0">AB</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="button"
+                class="btn btn-danger btn-sm delete"
+                value="X"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" class="form-control" />
+              <select name="credit" class="form-control select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </td>
+
+            <td>
+              <select name="grade" class="form-control">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="0">RA</option>
+                <option value="0">AB</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="button"
+                class="btn btn-danger btn-sm delete"
+                value="X"
+              />
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                style="float: right; width: 100%;"
+                id="final_submit"
+              >
+                submit
+              </button>
+            </td>
+            <td colspan="2">
+              <input
+                type="button"
+                class="btn btn-success addButton"
+                style="float: right;"
+                value="Add Subject"
+              />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- </form> -->
+      <div class="alert alert-success" role="alert" id="result">
+        Semester Grade Point Average (SGPA) is
+        <span class="alert-link"></span>
+      </div>
+      <p style="text-align: justify;">
+        <ul>
+          <li>SGPA - Semester End Grade Point Average</li>
+          <li>CGPA - Cumulative Grade Point</li>
+          <li>Average SGPA = (Sum of Subject Grade points * Credits)/(Total number of
+        credits per semester)</li>
+        <li>CGPA = (Sum of SGPAs of All Semesters)/ (Number of
+        Semesters)</li>
+        </ul>
+         
+         <p style="text-align: justify;">SGPA stands for Semester Grade Point Average. It is a grading
+        scheme used by many universities. Mathematically, it is the weighted
+        mean of the grades achieved in various subjects with the credits
+        allotted to the subjects acting as weights. To Calculate SGPA, you must
+        know the credits allotted to each subject. The credits are usually
+        mentioned on the syllabus. Then, multiply the credit allotted to each
+        subject with the grade achieved in that subject and add the products.
+        Divide this sum by sum of all credits to get your SGPA.</p> 
+      </p>
+      <h4 style="text-align: justify;">The grade and respective grade points used here is..</h4>
+      <img src="grade1.jpg" alt="grade image not found" width="100%"  >
+      <h5 style="text-align: justify;">you can edit the grade poins as pre your college regulation in future updates..</h5>
+      <p>
+        <ul>
+          <li>“RA” denotes “ Reappear”.</li>
+          <li>The CGPA are computed only for th epassed courses.The CGPA indicate the academic  performance  of a Studentat the  end of a semester and at the end of successive semesters respectively.</li>
+        </ul></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

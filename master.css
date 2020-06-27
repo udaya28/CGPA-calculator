@@ -1,0 +1,87 @@
+svg {
+  height: 28px;
+  width: 28px;
+}
+
+select {
+  height: 28px;
+  width: 35;
+  /* max-width: 50px; */
+}
+.container {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+input[type='text'] {
+  width: 75%;
+  /* max-width: 500px; */
+  min-width: 50px;
+}
+td {
+  white-space: nowrap;
+}
+
+.btn-sm {
+  height: 38px;
+  vertical-align: bottom;
+}
+
+th {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+
+  margin-top: 10px;
+}
+
+.form-control {
+  display: inline;
+}
+.select {
+  /* display: flex; */
+  width: 25%;
+}
+
+.table td,
+.table th {
+  padding: 6px;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+/* heading */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(48, 196, 68);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 6px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+}
+.topnav {
+  margin: 10px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 253, 253);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
