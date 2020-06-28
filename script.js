@@ -159,12 +159,14 @@ final_submit.addEventListener('click', generateResult);
 function generateResult() {
   var body = document.querySelectorAll('tbody');
   // console.log(body);
-  var input = document.querySelectorAll('input.form-control');
-  //console.log(input);
+  var input = document.querySelectorAll('tbody input.form-control');
+
+  // console.log(input);
+
   var credit = document.querySelectorAll('select.select');
-  //console.log(credit);
+  // console.log(credit);
   var grade = document.querySelectorAll('select[name="grade"]');
-  //console.log(grade);
+  // console.log(grade);
 
   const subArray = [];
   const creArray = [];
@@ -175,6 +177,9 @@ function generateResult() {
     subArray.push(input[i].value);
     creArray.push(parseInt(credit[i].value));
     graArray.push(parseInt(grade[i].value));
+    // console.log(subArray);
+    // console.log(creArray);
+    // console.log(graArray);
   }
   // console.log(subArray);
   // console.log(creArray);
@@ -196,7 +201,7 @@ function generateResult() {
 }
 
 function inputValidation(arr) {
-  console.log(arr);
+  // console.log(arr);
   for (const i of arr) {
     if (i === '') {
       return [false, 1];
